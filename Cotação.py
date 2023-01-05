@@ -1,3 +1,6 @@
+#Utilizando Requests para consumo de API (awesomeapi) para analise de cotações de moedas
+
+
 import requests
 
 def pegar_cotacoes(codigo_moeda):

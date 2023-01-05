@@ -1,3 +1,5 @@
+#projeto de uma versão antiga do SimpleGUI ainda em Analise
+
 import PySimpleGUI as sg
 
 class TelaPython:

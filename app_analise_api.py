@@ -1,3 +1,6 @@
+#janela interativa para Analise de Moedas utilizando API
+#feita em PySimpleGUI
+
 import PySimpleGUI as sg
 from Cotação import pegar_cotacoes
 
@@ -8,7 +11,7 @@ layout = [
     [sg.Button("Pegar Cotação"), sg.Button("Cancelar")],
     [sg.Text("", key="texto_cotacao")],
 ]
-
+#titulo da Janela
 janela = sg.Window("Sistema de Cotações", layout)
 
 while True:

@@ -1,6 +1,10 @@
+#Utilizando PySimpleGUI fiz uma janela interativa para loguin de usuarios
+
+
 from PySimpleGUI import PySimpleGUI as sg
 
 #Layout
+    #tema da tela
 sg.theme('Reddit')
 layout = [
     [sg.Text('Usuário'), sg.Input(key='Usuário',size=(20,1))],
